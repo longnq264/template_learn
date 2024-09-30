@@ -7,9 +7,9 @@
   "scripts": {
     "test": "test",
     "start": "live-server index.html",
-    "server": "json-server --watch db.json --port 3000",
-    "tailwind": "tailwind build -i src/styles.css -o public/styles.css --watch",
-    "dev": "concurrently \"npm run start\" \"npm run server\" \"npm run tailwind\" "
+    "server": "json-server db.json --port 8000",
+    "tailwind": "npx tailwindcss -i src/styles.css -o public/styles.css --watch",
+    "dev": "concurrently \"npm run server\" \"npm run tailwind\" "
   },
   "repository": {
     "type": "git",

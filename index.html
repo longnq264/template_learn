@@ -4,23 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/public/styles.css" />
+    <link rel="stylesheet" href="public/styles.css" />
   </head>
   <body>
-    <header id="header-site">
-      <div class="wrapper flex">
-        <section class="head-right">
-          <div class="logo-layout">
-            <h1 class="text-2xl">Logo</h1>
-          </div>
-          <div class="nav-menu">
-            <h2>List Menu</h2>
-          </div>
-        </section>
-        <section class="head-left">Nav List Profile</section>
+    <header
+      id="header-site"
+      class="fixed top-0 left-0 w-full bg-stone-800 text-white"
+    >
+      <div class="wrapper container mx-auto py-8">
+        <div class="flex justify-between items-center">
+          <section class="head-right flex items-center">
+            <div class="logo-layout">
+              <h1 class="text-3xl">Logo</h1>
+            </div>
+            <div class="nav-menu">
+              <h2>List Menu</h2>
+            </div>
+          </section>
+          <section class="head-left">Nav List Profile</section>
+        </div>
       </div>
     </header>
     <div id="root"></div>
-    <script type="module" src="./src/index.js"></script>
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>
