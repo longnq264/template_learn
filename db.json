@@ -1,0 +1,163 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "How to Choose the Right Outfit for Summer",
+      "author": "John Doe",
+      "date": "2024-09-25",
+      "content": "Summer is a great time to experiment with light and breezy outfits. Choose bright colors and comfortable fabrics.",
+      "image": "https://images.pexels.com/photos/1148957/pexels-photo-1148957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 2,
+      "title": "Fall-Winter Fashion Trends 2024",
+      "author": "Jane Smith",
+      "date": "2024-09-28",
+      "content": "2024 promises many unique fall-winter fashion trends, from oversized coats to elegant accessories.",
+      "image": "https://images.pexels.com/photos/1148957/pexels-photo-1148957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 3,
+      "title": "Styling Tips for Men",
+      "author": "Mike Lee",
+      "date": "2024-09-30",
+      "content": "To achieve a striking fashion style, men should pay attention to their outfit combinations, color choices, and appropriate accessories.",
+      "image": "https://images.pexels.com/photos/1148957/pexels-photo-1148957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Home"
+    },
+    {
+      "id": 2,
+      "name": "Contact"
+    },
+    {
+      "id": 3,
+      "name": "Product",
+      "subcategories": [
+        {
+          "id": 1,
+          "name": "Men's Fashion",
+          "clothing": [
+            {
+              "id": 1,
+              "name": "Men's T-Shirt"
+            },
+            {
+              "id": 2,
+              "name": "Men's Jeans"
+            },
+            {
+              "id": 3,
+              "name": "Men's Jacket"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Women's Fashion",
+          "clothing": [
+            {
+              "id": 1,
+              "name": "Women's Dress"
+            },
+            {
+              "id": 2,
+              "name": "Women's Blouse"
+            },
+            {
+              "id": 3,
+              "name": "Women's Leggings"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Áo thun nam",
+      "description": "Áo thun nam chất liệu cotton thoáng mát, thiết kế đơn giản.",
+      "price": 250000,
+      "image": "https://images.pexels.com/photos/1148957/pexels-photo-1148957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 2,
+      "name": "Quần jean nữ",
+      "description": "Quần jean nữ phong cách trẻ trung, dễ phối đồ.",
+      "price": 400000,
+      "image": "https://images.pexels.com/photos/1148957/pexels-photo-1148957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 3,
+      "name": "Giày thể thao",
+      "description": "Giày thể thao nhẹ nhàng, thoải mái cho mọi hoạt động.",
+      "price": 600000,
+      "image": "https://images.pexels.com/photos/1148957/pexels-photo-1148957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 4,
+      "name": "Váy công chúa",
+      "description": "Váy công chúa cho bé gái, thích hợp cho các dịp lễ hội.",
+      "price": 350000,
+      "image": "https://images.pexels.com/photos/1148957/pexels-photo-1148957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 5,
+      "name": "Balo học sinh",
+      "description": "Balo học sinh đa năng, thiết kế thông minh và tiện lợi.",
+      "price": 200000,
+      "image": "https://images.pexels.com/photos/1148957/pexels-photo-1148957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ],
+  "collections": [
+    {
+      "id": 1,
+      "name": "Summer Collection",
+      "description": "Explore our summer collection featuring light and breathable outfits perfect for the warm weather.",
+      "items": [
+        {
+          "id": 1,
+          "productId": 1,
+          "title": "Men's T-Shirt"
+        },
+        {
+          "id": 2,
+          "productId": 2,
+          "title": "Women's Dress"
+        },
+        {
+          "id": 3,
+          "productId": 3,
+          "title": "Men's Shorts"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Fall Collection",
+      "description": "Discover our fall collection featuring cozy and stylish outfits to keep you warm.",
+      "items": [
+        {
+          "id": 1,
+          "productId": 4,
+          "title": "Women's Sweater"
+        },
+        {
+          "id": 2,
+          "productId": 5,
+          "title": "Men's Jacket"
+        },
+        {
+          "id": 3,
+          "productId": 6,
+          "title": "Scarves"
+        }
+      ]
+    }
+  ]
+}
