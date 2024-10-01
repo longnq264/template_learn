@@ -6,10 +6,10 @@
   "type": "module",
   "scripts": {
     "test": "test",
-    "start": "live-server index.html",
+    "start": "npx live-server",
     "server": "json-server db.json --port 8000",
     "tailwind": "npx tailwindcss -i src/styles.css -o public/styles.css --watch",
-    "dev": "concurrently \"npm run server\" \"npm run tailwind\" "
+    "dev": "concurrently \"npm run server\" \"npm run tailwind\" \"npm run start\""
   },
   "repository": {
     "type": "git",
